@@ -1,13 +1,9 @@
 # Срез подчиняется системе sss
-# s - start
-# s - stop
-# s - step
-a = []
 
-# a.append(Что добавить(значение))
-for x in reversed(range(11)):
-    a.append(x)
+a = ['Первый', 'Второй']
+members = 10
 
-print(a)
+for x in (range(members)):
+    print(a[x % 2])
 
-
+print('Расчет окончен')
